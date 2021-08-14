@@ -1,7 +1,4 @@
-hostname = ap?.bilibili.com, ios*.prod.ftl.netflix.com,api.m.jd.com, trade-acs.m.taobao.com
-
-# 哔哩哔哩(By srk24)
-^https?:\/\/app\.bilibili\.com\/x\/v\d\/splash\/list url script-response-body https://raw.githubusercontent.com/srk24/profile/master/js/bilibili_splash.js
+hostname = ios*.prod.ftl.netflix.com,api.m.jd.com, trade-acs.m.taobao.com
 
 # Netflix评分(By yichahucha)
 ^https?://ios[-\w]*\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D url script-request-header https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js
